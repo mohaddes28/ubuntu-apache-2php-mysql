@@ -1,7 +1,11 @@
 # Install apache-2php-mysql on ubuntu
 ### Install Apache 2 and releted 
-```sudo apt update```
-```sudo apt install apache2 -y```
+```
+sudo apt update
+```
+```
+sudo apt install apache2 -y
+```
 ```sudo ufw allow 'Apache'```
 ```sudo ufw status```
 ```sudo systemctl status apache2```
